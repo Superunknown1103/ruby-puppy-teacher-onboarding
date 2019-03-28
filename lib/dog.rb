@@ -8,4 +8,8 @@ class Dog
     @@all << self
   end
 
+  self.clear_all
+    @@all.clear
+  end
+
 end
